@@ -100,7 +100,7 @@ version by examining the *packages.config* file, for example:
 
 ### .NET versions earlier than 4.7.2
 
-Microsoft does not support .NET versions lower that 4.7.2 for writing the same-site cookie attribute. We have not found a reliable way to:
+Microsoft does not support .NET versions lower than 4.7.2 for writing the same-site cookie attribute. We have not found a reliable way to:
 
 * Ensure the attribute is written correctly based on browser version.
 * Intercept and adjust authentication and session cookies on older framework versions.
